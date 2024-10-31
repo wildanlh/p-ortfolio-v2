@@ -44,11 +44,12 @@ export const AboutMe: React.FC = () => {
           viewport={{ once: true }}
         >
           <p className="text-xl text-white">
-            I'm <b>Wildan Luqmanul Hakim</b>, a software engineer. I specialize
-            in creating dynamic and user-focused web applications, working
-            proficiently as a frontend developer. My tech stack includes tools
-            like React, Next.js, and Google Cloud Platform, though I&apos;m
-            adaptable to various technologies to deliver effective solutions.
+            I&apos;m <b>Wildan Luqmanul Hakim</b>, a software engineer. I
+            specialize in creating dynamic and user-focused web applications,
+            working proficiently as a frontend developer. My tech stack includes
+            tools like React, Next.js, and Google Cloud Platform, though
+            I&apos;m adaptable to various technologies to deliver effective
+            solutions.
             <br />
             <br />I graduated with a Bachelor of Computer Science in Informatics
             Engineering from Bandung University of Technology in 2024. My
@@ -61,8 +62,8 @@ export const AboutMe: React.FC = () => {
             Outside of coding, I enjoy exploring new skills, working out, and
             playing games. I&apos;m open to work opportunities where I can apply
             my technical expertise and creative problem-solving abilities. Feel
-            free to connect with me through the links below if you'd like to
-            discuss potential collaborations!
+            free to connect with me through the links below if you&apos;d like
+            to discuss potential collaborations!
           </p>
         </motion.div>
         <div>

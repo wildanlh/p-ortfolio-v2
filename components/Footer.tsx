@@ -14,7 +14,10 @@ export const Footer: React.FC<NavbarProps> = ({ items }) => {
     setScrollPosition(currentScrollPosition);
   };
 
-  const smoothScroll = (event, href) => {
+  const smoothScroll = (
+    event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
+    href: string
+  ) => {
     event.preventDefault();
     const targetId = href.replace("#", "");
     const targetElement = document.getElementById(targetId);
